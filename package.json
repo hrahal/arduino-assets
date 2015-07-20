@@ -1,0 +1,19 @@
+{
+  "name": "slackbot-notifier",
+  "version": "0.0.1",
+  "description": "notification events based on slack bot commands",
+  "main": "slackBot.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:hrahal/slackbot-notifier.git"
+  },
+  "keywords": [
+    "arduino"
+  ],
+  "author": "hasan rahal",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/hrahal/slackbot-notifier/issues"
+  },
+  "homepage": "https://github.com/hrahal/slackbot-notifier"
+}
