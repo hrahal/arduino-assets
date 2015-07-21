@@ -2,6 +2,7 @@
 var five = require("johnny-five");
 var slackbot = require('node-slackbot');
 var instapush = require('instapush');
+var SerialPort = require("serialport").SerialPort;
 var board = new five.Board();
 var interval = 10000;
 var botToken = 'xoxb-7654433348-NqFvmEsxjgT6OifKVNM3NObE';

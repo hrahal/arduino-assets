@@ -1,22 +1,24 @@
 {
-  "name": "slackbot-notifier",
+  "name": "arduino-assets",
   "version": "0.0.1",
-  "description": "notification events based on slack bot commands",
-  "main": "slackBot.js",
+  "description": "connecting arduino events",
+  "dependencies": {
+    "serialport": "~1.7.4",
+    "instapush": "~0.0.7"
+  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:hrahal/slackbot-notifier.git"
+    "url": "git://github.com/hrahal/arduino-assets.git"
   },
   "keywords": [
-    "arduino"
+    "arduino",
+    "node.js"
   ],
-  "author": "hasan rahal",
+  "author": "Hasan Rahal",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/hrahal/slackbot-notifier/issues"
+    "url": "https://github.com/hrahal/arduino-assets/issues"
   },
-  "homepage": "https://github.com/hrahal/slackbot-notifier",
-  "dependencies": {
-    "instapush": "0.0.7"
-  }
+  "homepage": "https://github.com/hrahal/arduino-assets"
 }
