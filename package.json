@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/hrahal/slackbot-notifier/issues"
   },
-  "homepage": "https://github.com/hrahal/slackbot-notifier"
+  "homepage": "https://github.com/hrahal/slackbot-notifier",
+  "dependencies": {
+    "instapush": "0.0.7"
+  }
 }
